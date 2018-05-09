@@ -87,17 +87,6 @@ $(".close").click(function () {
     $("#imie").css("margin-top", ($wysokosc / 2) - 200);
 
 
-// //ANIMOWANA IKONA BURGERA
-//
-//     transformicons.add('.tcon');
-//
-//     $(".burger").click(function () {
-//         $(".traggle").slideToggle("medium");
-//     });
-
-
-
-
 
 //SLAJDER Z TECHNOLOGIAMI
 
@@ -126,8 +115,12 @@ $(".close").click(function () {
 
 //KONIEC SLAJDERU
 
-//SKROLOWANIE MENU
+//Testimonials
+    $('.testimonials-container').backstretch("./img/backgrounds/1.jpg");
 
+    $('a[data-toggle="tab"]').on('shown.bs.tab', function(){
+        $('.testimonials-container').backstretch("resize");
+    });
 
 });
 
@@ -182,6 +175,33 @@ $(window).scroll(function () {
         $("#projekty .parallax").each(function () {
 
             $("#projekty .parallax").removeClass("wysuniecie");
+        });
+
+    }
+
+    if (wScroll > $("#testimonials .parallax").offset().top - $wysokosc / 1.5) {
+
+        $("#testimonials .parallax").each(function () {
+            $("#testimonials .parallax").addClass("wysuniecie");
+        });
+    }
+    else {
+        $("#testimonials .parallax").each(function () {
+            $("#testimonials .parallax").removeClass("wysuniecie");
+        });
+
+    }
+
+    if (wScroll > $("#blog .parallax").offset().top - $wysokosc / 1.5) {
+
+        $("#blog .parallax").each(function () {
+            $("#blog .parallax").addClass("wysuniecie");
+        });
+    }
+    else {
+        $("#blog .parallax").each(function () {
+
+            $("#blog .parallax").removeClass("wysuniecie");
         });
 
     }
@@ -255,18 +275,31 @@ $(window).scroll(function () {
             $("nav ul li:eq(3) a, .traggle ul li:eq(3) a").removeClass("active");
             $("nav ul .special, .traggle ul .special").removeClass("active_border");
         }
-        if (wScroll > $("#wspolpraca").offset().top - 250) {
+        if (wScroll > $("#testimonials").offset().top - 250) {
             $("nav ul li:eq(3) a, .traggle ul li:eq(3) a").removeClass("active");
             $("nav ul li:eq(4) a, .traggle ul li:eq(4) a").addClass("active");
+        }
+        if (wScroll < $("#testimonials").offset().top - 250) {
+            $("nav ul li:eq(4) a, .traggle ul li:eq(4) a").removeClass("active");
+        }
+        if (wScroll > $("#blog").offset().top - 250) {
+            $("nav ul li:eq(4) a, .traggle ul li:eq(4) a").removeClass("active");
+            $("nav ul li:eq(5) a, .traggle ul li:eq(5) a").addClass("active");
+        }
+        if (wScroll < $("#blog").offset().top - 250) {
+            $("nav ul li:eq(5) a, .traggle ul li:eq(5) a").removeClass("active");
+        }
+        if (wScroll > $("#wspolpraca").offset().top - 250) {
+            $("nav ul li:eq(5) a, .traggle ul li:eq(5) a").removeClass("active");
+            $("nav ul li:eq(6) a, .traggle ul li:eq(6) a").addClass("active");
             $("nav ul .special, .traggle ul .special").removeClass("active_border");
         }
         if (wScroll < $("#wspolpraca").offset().top - 250) {
-            $("nav ul li:eq(4) a, .traggle ul li:eq(4) a").removeClass("active");
+            $("nav ul li:eq(6) a, .traggle ul li:eq(6) a").removeClass("active");
         }
 
 
     }
-
 
 
 });

@@ -18,6 +18,7 @@
     <link rel="stylesheet" type="text/css" href="css/mainpage.css">
     <link rel="stylesheet" type="text/css" href="assets/sliderparallax/css/parallax-slider.css">
 
+
 </head>
 
 <body class="glowna">
@@ -25,36 +26,6 @@
 <div class="cover"></div>
 
 <header id="home">
-    <!--<nav class="navigation">-->
-        <!--<ul>-->
-            <!--<li class="scroll"><a href="#home">HOME</a></li>-->
-            <!--<li class="scroll"><a href="#kim">KIM JESTEM?</a></li>-->
-            <!--<li class="scroll"><a href="#technologie">TECHNOLOGIE</a></li>-->
-            <!--<li class="special scroll"><a href="#projekty">PROJEKTY</a></li>-->
-            <!--<li class="scroll"><a href="#kontakt">KONTAKT</a></li>-->
-            <!--<li class="flag flag_pl flag-active"><a href="#"><img src="img/pl.png" alt="flaga polska" /> </a></li>-->
-            <!--<li class="flag flag_en"><a href="#"><img src="img/en.png" alt="flaga brytyjska" /></a></li>-->
-        <!--</ul>-->
-    <!--</nav>-->
-
-    <!--<div class="burger">-->
-        <!--<button type="button" class="tcon tcon-menu&#45;&#45;xbutterfly" aria-label="toggle menu">-->
-            <!--<span class="tcon-menu__lines" aria-hidden="true"></span>-->
-            <!--<span class="tcon-visuallyhidden">toggle menu</span>-->
-        <!--</button>-->
-
-        <!--<div class="traggle">-->
-            <!--<ul>-->
-                <!--<li class="scroll"><a href="#home">HOME</a></li>-->
-                <!--<li class="scroll"><a href="#kim">KIM JESTEM?</a></li>-->
-                <!--<li class="scroll tech"><a href="#technologie">TECHNOLOGIE</a></li>-->
-                <!--<li class="special scroll"><a href="#projekty">PROJEKTY</a></li>-->
-                <!--<li class="scroll"><a href="#kontakt">KONTAKT</a></li>-->
-                <!--<li class="flag flag_pl flag-active"><a href="#"><img src="img/pl.png" alt="flaga polska" /> </a></li>-->
-                <!--<li class="flag flag_en"><a href="#"><img src="img/en.png" alt="flaga brytyjska" /></a></li>-->
-            <!--</ul>-->
-        <!--</div>-->
-    <!--</div>-->
 
     <!--STICKY BAR-->
     <div id="header-top">
@@ -72,7 +43,8 @@
                     <li class="scroll"><a href="#kim"><i class="fa fa-user" aria-hidden="true"></i>KIM JESTEM?</a></li>
                     <li class="scroll tech"><a href="#technologie"><i class="fa fa-cogs" aria-hidden="true"></i>TECHNOLOGIE</a></li>
                     <li class="scroll"><a href="#projekty"><i class="fa fa-rocket" aria-hidden="true"></i>PROJEKTY</a></li>
-                    <li class="scroll"><a href="#opinie"><i class="fa fa-comments" aria-hidden="true"></i>OPINIE</a></li>
+                    <li class="scroll"><a href="#testimonials"><i class="fa fa-comments" aria-hidden="true"></i>OPINIE</a></li>
+                    <li class="scroll"><a href="#blog"><i class="fa fa-newspaper-o" aria-hidden="true"></i>BLOG</a></li>
                     <li class="scroll"><a href="#kontakt"><i class="fa fa-envelope" aria-hidden="true"></i>KONTAKT</a></li>
                     <li><a href="#"><i class="fa fa-cube" aria-hidden="true"></i>BEZPŁ. WYCENA</a></li>
                 </ul>
@@ -103,75 +75,6 @@
     </div>
     <!--end sticky bar-->
 
-    <!-- Modal with member login -->
-    <div id="login-modal" class="modal fade" role="dialog">
-        <div class="modal-dialog">
-
-            <!-- Modal content-->
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <h3 class="modal-title">ZALOGUJ SIĘ NA TWOJE KONTO</h3>
-                </div>
-                <div class="modal-body">
-                    <div class="row">
-                        <div class="col-sm-4">
-                            <i class="fa fa-user" aria-hidden="true"></i>
-                        </div>
-                        <div class="col-sm-8">
-
-                            <form class="form-horizontal">
-                                <div class="form-group">
-                                    <label for="inputEmail" class="col-xs-3 control-label">Email</label>
-                                    <div class="col-xs-9">
-                                        <input type="email" class="form-control" id="inputEmail" placeholder="Email">
-
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <label for="inputPassword" class="col-xs-3 control-label">Hasło</label>
-                                    <div class="col-xs-9">
-                                        <input type="password" class="form-control" id="inputPassword" placeholder="Hasło">
-                                        <p class="small"><a href="#">Nie pamiętam hasła</a></p>
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <div class="col-xs-offset-1 col-xs-10">
-                                        <div class="checkbox">
-                                            <label>
-                                                <input type="checkbox"> Zapamiętaj mnie
-                                            </label>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <div class="col-xs-offset-1 col-xs-10">
-                                        <button type="submit" class="btn btn-success btn-lg">Zaloguj</button>
-                                    </div>
-                                </div>
-                                <p class="bad-credential">Niepoprawny login lub hasło</p>
-
-                            </form>
-
-                        </div>
-                    </div>
-
-                    <div class="separator">
-                        <div class="mask"></div>
-                    </div>
-
-                    <h6>Nie masz jeszcze konta na Rankingowcu?</h6>
-                    <a class="button" href="#"><span>ZAŁÓŻ DARMOWE KONTO</span></a>
-                </div>
-
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Zamknij</button>
-                </div>
-            </div>
-
-        </div>
-    </div>
-
     <!-- Modal with searching form -->
     <div id="search-modal" class="modal fade" role="dialog">
         <div class="modal-dialog">
@@ -180,7 +83,7 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <h3 class="modal-title">SZUKAJ NA RANKINGOWCU</h3>
+                    <h3 class="modal-title">SZUKAJ NA STRONIE</h3>
                 </div>
                 <div class="modal-body">
 
@@ -217,7 +120,7 @@
     <div class="container">
         <div class="row">
             <div class="omnie col-md-6 col-xs-12">
-                <h2>Kila słów <span>o mnie</span></h2>
+                <h2>Kilka słów <span>o mnie</span></h2>
                 <p>Student geofizyki, <span>webdeveloper z pasji</span>. Na co dzień freelancer, który tworzy strony i serwisy internetowe, co sprawia mu ogromną radość. Głównie tworzy kod w technologiach <span>front-end-owych</span> ale w głębi duszy jest ogromnym fanem języka <span>PHP</span>. Od czasu do czasu zajmuje się również prostą grafiką</p> <p>W wolnych chwilach podróżuje po świecie, biega w maratonach i uwielbia wszystko co zwiększa poziom adrenaliny.</p>
 
                 <a class="button" href="https://www.freelancer.com/u/robertsaternus.html#resume" target="_blank"> Opinie </a>
@@ -225,7 +128,7 @@
             </div>
 
             <div class="col-md-6 col-xs-12">
-                <img src="img/o-mnie.JPG" alt="Robert Saternus"/>
+                <img src="img/robert2.jpg" alt="Robert Saternus"/>
             </div>
         </div>
     </div>
@@ -324,6 +227,7 @@
                         <li>Photoshop</li>
                     </ul>
                     <a class="button" href="http://freelancelot.pl" target="_blank" >Zobacz projekt</a>
+                    <a class="button" href="http://freelancelot.pl" target="_blank" >Więcej o projekcie</a>
                 </div>
             </div>
 
@@ -408,13 +312,149 @@
     </div>
 </section>
 
+<section id="testimonials">
+
+    <!-- Testimonials -->
+    <div class="testimonials-container section-container section-container-image-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 testimonials section-description">
+                    <div class="parallax col-xs-12">
+                        <h2>Opinie osób, z którymi <span>współpracuję</span> </h2>
+                    </div>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 testimonial-list">
+                    <div role="tabpanel">
+                        <!-- Tab panes -->
+                        <div class="tab-content">
+                            <div role="tabpanel" class="tab-pane fade in active" id="tab1">
+                                <div class="testimonial-image col-md-3">
+                                    <img src="img/rafal.JPG" alt="t1"> <br />
+                                    <p class="testimonial-author">Rafał Kupczak</p>
+                                    <p class="company">Prezes <a class href="http://divesupreme.pl" target="_blank">divesupreme.pl</a></p>
+                                </div>
+                                <div class="testimonial-text col-md-9">
+                                    <p>Robert pomagał mi w zaprojektowaniu i wykonaniu strony dla Akademii Nurkowania Dive Supreme. Kiedy się zdzwanialiśmy po raz pierwszy jeszcze nie wiedziałem z kim bede miał okazje pracować. Okazało sie, ze Robert przeszedł moje najśmielsze oczekiwania: strona powstala błyskawicznie, kontakt był zapewniony praktycznie 24h na dobę, na wszelkie pytania otrzymałem wyczerpujace odpowiedzi. Malo tego, oprócz stworzenia strony Robert nauczył mnie obsługiwać system Woocommerce, dobrał świetne zdjęcia pasujace do klimatu strony i pomogł skonfigurowac moduł PayPal. Moge śmiało powiedzieć, że ten czlowiek to wymierajacy gatunek: skromny, pracowity, cierpliwy a przy tym diabelsko skuteczny. Absolutnie polecam Roberta i pozostaje do dyspozycji w razie potrzeby osobistej rekomendacji.</p>
+                                </div>
+                            </div>
+
+                            <div role="tabpane2" class="tab-pane fade " id="tab2">
+                                <div class="testimonial-image col-md-3">
+                                    <img src="img/michail.jpg" alt="t1"> <br />
+                                    <p class="testimonial-author">Michael Fairfax Fishwick</p>
+                                    <p class="company">CEO <a href="http://beachresorthacienda.com/" target="_blank">Travell Asia Blue</a></p>
+                                </div>
+                                <div class="testimonial-text col-md-9">
+                                    <p>Robert as a Web Developer designed and created for my company several websites. He is great in user-friendly interface and automation of e-commerce systems. Mr. Saternus was highly motivated to work well as part of a team during his tenure. I found his sincere, hardworking, technically sound and result oriented.  <a href="assets/recommedation-letter-asia-blue.pdf" target="_blank"> [All recommedation letter] </a> </p>
+                                </div>
+                            </div>
+
+                            <div role="tabpane3" class="tab-pane fade " id="tab3">
+                                <div class="testimonial-image col-md-3">
+                                    <img src="img/Barbara_Bieta.jpg" alt="t1"> <br />
+                                    <p class="testimonial-author">Rafał Kupczak</p>
+                                    <p class="company">Prezes <a class href="http://divesupreme.pl">divesupreme.pl</a></p>
+                                </div>
+                                <div class="testimonial-text col-md-9">
+                                    <p>Robert pomagał mi w zaprojektowaniu i wykonaniu strony dla Akademii Nurkowania Dive Supreme. Kiedy się zdzwanialiśmy po raz pierwszy jeszcze nie wiedziałem z kim bede miał okazje pracować. </p>
+                                </div>
+                            </div>
+
+                            <div role="tabpane4" class="tab-pane fade " id="tab4">
+                                <div class="testimonial-image col-md-3">
+                                    <img src="img/adept.jpg" alt="t1"> <br />
+                                    <p class="testimonial-author">Rafał Kupczak</p>
+                                    <p class="company">Prezes <a class href="http://divesupreme.pl" target="_blank" >divesupreme.pl</a></p>
+                                </div>
+                                <div class="testimonial-text col-md-9">
+                                    <p>Robert pomagał mi w zaprojektowaniu i wykonaniu strony dla Akademii Nurkowania Dive Supreme. Kiedy się zdzwanialiśmy po raz pierwszy jeszcze nie wiedziałem z kim bede miał okazje pracować. Okazało sie, ze Robert przeszedł moje najśmielsze oczekiwania: strona powstala błyskawicznie, kontakt był zapewniony praktycznie 24h na dobę, na wszelkie pytania otrzymałem wyczerpujace odpowiedzi. Malo tego, oprócz stworzenia strony Robert nauczył mnie obsługiwać system Woocommerce, dobrał </p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- Nav tabs -->
+                        <ul class="nav nav-tabs" role="tablist">
+                            <li role="presentation" class="active">
+                                <a href="#tab1" aria-controls="tab1" role="tab" data-toggle="tab"></a>
+                            </li>
+                            <li role="presentation">
+                                <a href="#tab2" aria-controls="tab2" role="tab" data-toggle="tab"></a>
+                            </li>
+                            <li role="presentation">
+                                <a href="#tab3" aria-controls="tab3" role="tab" data-toggle="tab"></a>
+                            </li>
+                            <li role="presentation">
+                                <a href="#tab4" aria-controls="tab4" role="tab" data-toggle="tab"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<section id="blog">
+
+    <div class="container">
+        <div class="row">
+            <div class="parallax col-xs-12">
+                <h2>Najnowsze <span>artykuły</span></h2>
+            </div>
+
+            <div class="col-md-4 article">
+                <img class="img-responsive thumbnail" src="img/slide2.jpg" alt="artykuł1">
+                <div class="parent">
+                    <h3>Temat artykułu Temat </h3>
+                </div>
+                <div class="parent2">
+                    <p>Jako wolny strzelec, nie muszący opłacać biura czy pracowników, oferuję bardzo konkurencyjne ceny. Specjalizuję się w  systemie Wodpress (tworzenie szablonów, pluginów)</p>
+                </div>
+                <a class="button" href="#">Czytaj więcej</a>
+
+            </div>
+
+            <div class="col-md-4 article">
+                <img class="img-responsive thumbnail" src="img/slide2.jpg" alt="artykuł1">
+                <div class="parent">
+                    <h3>Temat artykułu Temat artykułu Temat artykułu</h3>
+                </div>
+                <div class="parent2">
+                    <p>Jako wolny strzelec, nie muszący opłacać biura czy pracowników, oferuję bardzo konkurencyjne ceny. Specjalizuję się w  systemie Wodpress (tworzenie szablonów, pluginów)</p>
+                </div>
+                <a class="button" href="#">Czytaj więcej</a>
+            </div>
+
+            <div class="col-md-4 article">
+                <img class="img-responsive thumbnail" src="img/slide2.jpg" alt="artykuł1">
+                <div class="parent">
+                    <h3>Temat artykułu Temat artykułu Temat artykułu</h3>
+                </div>
+                <div class="parent2">
+                    <p>Jako wolny strzelec, nie muszący opłacać biura czy pracowników, oferuję bardzo konkurencyjne ceny. Specjalizuję się w  systemie Wodpress (tworzenie szablonów, pluginów). Jako wolny strzelec, nie muszący opłacać biura czy pracowników,</p>
+                </div>
+                <a class="button" href="#">Czytaj więcej</a>
+            </div>
+
+            <a class="button bigger" href="projekty.html">Zobacz więcej artykułów</a>
+
+        </div>
+    </div>
+
+
+</section>
+
 <section id="wspolpraca">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-md-6 col-sm-5 hidden-xs"></div>
             <div class="col-lg-4 col-md-6 col-sm-7 col-xs-12">
                 <h2>Zapraszam do współpracy</h2>
-                <p>Jako wolny strzelec, nie muszący opłacać biura czy pracowników, oferuję bardzo konkurencyjne ceny. Specjalizuję się w <span> systemie Wodpress (tworzenie szablonów, pluginów)</span>. Wykunuję praktycznie każdy rodzaj stron:<span> wizytówki firm, sklepy internetowe, blogi, portfolia</span> oraz <span>aplikacje webowe.</span> </p>
+                <p>Jako wolny strzelec, nie muszący opłacać biura czy pracowników, oferuję bardzo konkurencyjne ceny. Specjalizuję się w <span> systemie Wodpress (tworzenie szablonów, pluginów)</span> oraz w <span> tworzeniu aplikacji w Symfony</span>. Wykunuję praktycznie każdy rodzaj stron:<span> wizytówki firm, sklepy internetowe, blogi, portfolia</span> oraz <span>aplikacje webowe.</span> </p>
             </div>
         </div>
     </div>
@@ -464,10 +504,11 @@
 <script src="js/bootstrap.min.js"></script>
 <script src="js/pace.min.js"></script>
 <script src="assets/sliderparallax/js/jquery.cslider.js"></script>
-<!--<script src="js/jquery.scrollTo-1.4.3.1-min.js"></script>-->
-<!--<script src="js/transformico.js"></script>-->
 <script src="js/jquery.bgswitcher.js"></script>
+<script src="js/jquery.backstretch.min.js"></script>
 <script src="js/main_script.js"></script>
+
+
 
 </body>
 
