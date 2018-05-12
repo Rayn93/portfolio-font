@@ -18,6 +18,11 @@ $(window).scroll(function() {
 $(document).ready(function () {
 
 
+    var width = $(window).width();
+    if (width <= 767) {
+        $("#cv .timeline li").removeClass("right").addClass("left")
+    }
+
 // $('.scroll, .scroll a').click(function () {
 //
 //     var page = $(this).attr('href');
@@ -246,61 +251,69 @@ $(window).scroll(function () {
     }
 
 
+
 //ZMIANA AKTYWNYCH LINKÓW W NAWIGACJ GŁÓWNEJ
 
-    if($('body').hasClass('glowna')){
+    // if($('body').hasClass('glowna')){
+    //
+    //
+    //     if (wScroll < $("#kim").offset().top - 250) {
+    //         $("nav ul li:eq(0) a, .traggle ul li:eq(0) a").addClass("active");
+    //         $("nav ul li:eq(1) a, .traggle ul li:eq(1) a").removeClass("active");
+    //     }
+    //     if (wScroll > $("#kim").offset().top - 250) {
+    //         $("nav ul li:eq(0) a, .traggle ul li:eq(0) a").removeClass("active");
+    //         $("nav ul li:eq(1) a, .traggle ul li:eq(1) a").addClass("active");
+    //     }
+    //     if (wScroll > $("#technologie").offset().top - 250) {
+    //         $("nav ul li:eq(1) a, .traggle ul li:eq(1) a").removeClass("active");
+    //         $("nav ul li:eq(2) a, .traggle ul li:eq(2) a").addClass("active");
+    //     }
+    //     if (wScroll < $("#technologie").offset().top - 250) {
+    //         $("nav ul li:eq(2) a, .traggle ul li:eq(2) a").removeClass("active");
+    //     }
+    //     if (wScroll > $("#projekty").offset().top - 250) {
+    //         $("nav ul li:eq(2) a, .traggle ul li:eq(2) a").removeClass("active");
+    //         $("nav ul li:eq(3) a, .traggle ul li:eq(3) a").addClass("active");
+    //         $("nav ul .special, .traggle ul .special").addClass("active_border");
+    //     }
+    //     if (wScroll < $("#projekty").offset().top - 250) {
+    //         $("nav ul li:eq(3) a, .traggle ul li:eq(3) a").removeClass("active");
+    //         $("nav ul .special, .traggle ul .special").removeClass("active_border");
+    //     }
+    //     if (wScroll > $("#testimonials").offset().top - 250) {
+    //         $("nav ul li:eq(3) a, .traggle ul li:eq(3) a").removeClass("active");
+    //         $("nav ul li:eq(4) a, .traggle ul li:eq(4) a").addClass("active");
+    //     }
+    //     if (wScroll < $("#testimonials").offset().top - 250) {
+    //         $("nav ul li:eq(4) a, .traggle ul li:eq(4) a").removeClass("active");
+    //     }
+    //     if (wScroll > $("#blog").offset().top - 250) {
+    //         $("nav ul li:eq(4) a, .traggle ul li:eq(4) a").removeClass("active");
+    //         $("nav ul li:eq(5) a, .traggle ul li:eq(5) a").addClass("active");
+    //     }
+    //     if (wScroll < $("#blog").offset().top - 250) {
+    //         $("nav ul li:eq(5) a, .traggle ul li:eq(5) a").removeClass("active");
+    //     }
+    //     if (wScroll > $("#wspolpraca").offset().top - 250) {
+    //         $("nav ul li:eq(5) a, .traggle ul li:eq(5) a").removeClass("active");
+    //         $("nav ul li:eq(6) a, .traggle ul li:eq(6) a").addClass("active");
+    //         $("nav ul .special, .traggle ul .special").removeClass("active_border");
+    //     }
+    //     if (wScroll < $("#wspolpraca").offset().top - 250) {
+    //         $("nav ul li:eq(6) a, .traggle ul li:eq(6) a").removeClass("active");
+    //     }
+
+});
 
 
-        if (wScroll < $("#kim").offset().top - 250) {
-            $("nav ul li:eq(0) a, .traggle ul li:eq(0) a").addClass("active");
-            $("nav ul li:eq(1) a, .traggle ul li:eq(1) a").removeClass("active");
-        }
-        if (wScroll > $("#kim").offset().top - 250) {
-            $("nav ul li:eq(0) a, .traggle ul li:eq(0) a").removeClass("active");
-            $("nav ul li:eq(1) a, .traggle ul li:eq(1) a").addClass("active");
-        }
-        if (wScroll > $("#technologie").offset().top - 250) {
-            $("nav ul li:eq(1) a, .traggle ul li:eq(1) a").removeClass("active");
-            $("nav ul li:eq(2) a, .traggle ul li:eq(2) a").addClass("active");
-        }
-        if (wScroll < $("#technologie").offset().top - 250) {
-            $("nav ul li:eq(2) a, .traggle ul li:eq(2) a").removeClass("active");
-        }
-        if (wScroll > $("#projekty").offset().top - 250) {
-            $("nav ul li:eq(2) a, .traggle ul li:eq(2) a").removeClass("active");
-            $("nav ul li:eq(3) a, .traggle ul li:eq(3) a").addClass("active");
-            $("nav ul .special, .traggle ul .special").addClass("active_border");
-        }
-        if (wScroll < $("#projekty").offset().top - 250) {
-            $("nav ul li:eq(3) a, .traggle ul li:eq(3) a").removeClass("active");
-            $("nav ul .special, .traggle ul .special").removeClass("active_border");
-        }
-        if (wScroll > $("#testimonials").offset().top - 250) {
-            $("nav ul li:eq(3) a, .traggle ul li:eq(3) a").removeClass("active");
-            $("nav ul li:eq(4) a, .traggle ul li:eq(4) a").addClass("active");
-        }
-        if (wScroll < $("#testimonials").offset().top - 250) {
-            $("nav ul li:eq(4) a, .traggle ul li:eq(4) a").removeClass("active");
-        }
-        if (wScroll > $("#blog").offset().top - 250) {
-            $("nav ul li:eq(4) a, .traggle ul li:eq(4) a").removeClass("active");
-            $("nav ul li:eq(5) a, .traggle ul li:eq(5) a").addClass("active");
-        }
-        if (wScroll < $("#blog").offset().top - 250) {
-            $("nav ul li:eq(5) a, .traggle ul li:eq(5) a").removeClass("active");
-        }
-        if (wScroll > $("#wspolpraca").offset().top - 250) {
-            $("nav ul li:eq(5) a, .traggle ul li:eq(5) a").removeClass("active");
-            $("nav ul li:eq(6) a, .traggle ul li:eq(6) a").addClass("active");
-            $("nav ul .special, .traggle ul .special").removeClass("active_border");
-        }
-        if (wScroll < $("#wspolpraca").offset().top - 250) {
-            $("nav ul li:eq(6) a, .traggle ul li:eq(6) a").removeClass("active");
-        }
+//PODMIANA KLASY PRZY SZEROKOŚCI OKNA 620PX DLA SEKCJI KATEGORIE
+$(window).resize(function () {
 
-
+    var width = $(window).width();
+    if (width <= 767) {
+        $("#cv .timeline li").removeClass("right").addClass("left")
     }
-
 
 });
 

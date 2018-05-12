@@ -7,7 +7,7 @@
     }
 
     #kim img {
-        width: 70%;
+        width: 90%;
         margin-top: 150px;
     }
 
@@ -41,6 +41,38 @@
         width: 70%;
     }
 
+    .testimonial-list .testimonial-text {
+        height: 280px;
+        margin-bottom: 20px;
+    }
+
+    #blog .article .parent2{
+        height: 120px;
+    }
+
+    #cv .personal-info .relative,
+    #cv #personal-info{
+        height: 404px;
+
+    }
+
+    #cv .personal-info p{
+        font-size: 18px;
+    }
+
+    #cv .personal-info ul.main-info {
+        font-size: 17px;
+        line-height: 25px;
+    }
+
+    #cv #service .box .box2 {
+        width: 79%;
+    }
+
+    #cv .right .cert {
+        right: 72px;
+    }
+
 }
 
 @media all and (max-width: 991px) {
@@ -54,10 +86,10 @@
     }
 
     #kim img {
-        width: 50%;
-        height: 50%;
-        margin-top: 20px;
-        margin-bottom: 20px;
+        width: 70%;
+        margin-top: 30px;
+        margin-bottom: 48px;
+
     }
 
     #technologie .img-responsive {
@@ -127,12 +159,66 @@
 
     #blogList #postList article a.button {
         position: absolute;
-        bottom: -65px;
+        bottom: -50px;
         right: 10px;
     }
 
     #staticPage .styled-input {
         width: 100%;
+    }
+
+    .testimonial-list .testimonial-text {
+        height: 230px;
+    }
+
+    #cv .personal-info .relative,
+    #cv #personal-info{
+        height: 313px;
+    }
+
+    #cv .personal-info h2{
+        font-size: 25px;
+        margin-top: 8px;
+    }
+
+    #cv .personal-info h3{
+        font-size: 20px;
+    }
+
+    #cv hr {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    #cv .personal-info p{
+        font-size: 16px;
+        width: 97%;
+    }
+
+    #cv .personal-info ul.social {
+        height: 35px;
+        line-height: 35px;
+    }
+
+    #cv .personal-info ul.social li a{
+        font-size: 25px;
+    }
+
+    #cv .personal-info ul.main-info {
+        font-size: 15px;
+        line-height: 21px;
+    }
+
+    #cv .personal-info ul.social li {
+        margin-left: 12%;
+    }
+
+    #cv .skill .row {
+        padding: 35px 15px 30px 50px;
+    }
+
+    #cv .right .cert {
+        right: 50px;
     }
 
 }
@@ -152,12 +238,13 @@
 
 @media all and (max-width: 767px) {
 
-    #home nav {
-        display: none;
-    }
-
     #home #imie h1 {
         font-size: 60px;
+    }
+
+    header .traggle-menu ul {
+        padding-bottom: 30px;
+
     }
 
     #kim .omnie {
@@ -181,8 +268,12 @@
         display: none;
     }
 
+    #cv .tech {
+        display: block;
+    }
+
     #projekty {
-        border-top: 5px solid #00a651;
+        border-top: 5px solid #0BC687;
     }
 
     .project_desc {
@@ -217,6 +308,69 @@
         width: 80%;
     }
 
+    .testimonial-list .testimonial-text {
+        height: 260px;
+    }
+
+    #blog .article .parent{
+        height: auto;
+    }
+
+    #blog .article .parent2{
+        height: auto;
+    }
+
+    #blog .article{
+        width: 80%;
+        margin-left: 10%;
+        padding-bottom: 60px;
+    }
+
+    .static-top h1{
+        font-size: 80px;
+    }
+
+    #cv #service .box {
+        height: 200px;
+        width: 70%;
+        margin: 20px auto;
+    }
+
+    #cv #service .box .box2 {
+        width: 60%;
+    }
+
+    .timeline::before {
+        left: 80%;
+    }
+
+    .timeline li.left {
+        width: 80%;
+    }
+
+    .timeline li.mt60{
+        margin-top: 30px !important;
+    }
+
+    #cv .skill .row {
+        width: 96%;
+        margin-left: 2%;
+    }
+
+    #cv .personal-info {
+        width: 96%;
+    }
+
+    #cv .cv-top h1,
+    #cv .cv-top h2{
+        display: none;
+    }
+
+    #cv .cv-top .btn {
+        margin-top: 125px;
+        margin-right: 40px;
+    }
+
 }
 
 @media all and (max-width: 550px) {
@@ -249,7 +403,74 @@
         width: 90%;
     }
 
+    .test-long{
+        display: none;
+    }
+
+    .test-short{
+        display: block;
+    }
+
+    #blog .article{
+        width: 94%;
+        margin-left: 3%;
+        padding-bottom: 60px;
+    }
+
+    header .burger {
+        margin-left: 20px;
+    }
+
+    .static-top h1{
+        font-size: 60px;
+    }
+
+    #cv #service .box {
+        width: 90%;
+    }
+
+    #cv #service .box .box2 {
+        width: 74%;
+    }
+
+    #cv .skill .row {
+        padding: 34px 0px 30px 30px;
+    }
+
+    #cv .personal-info .relative, #cv #personal-info {
+        height: 330px;
+    }
+
+    #cv .personal-info ul.social li {
+        margin-left: 11%;
+    }
+
+    .timeline::before {
+        left: 90%;
+    }
+
+    .timeline li.left {
+        width: 90%;
+    }
+
+    #cv #additional .box ul li {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    #cv #additional .box ul li i {
+        width: 35px;
+        font-size: 19px;
+    }
+
 }
+
+/*@media all and (max-width: 600px){*/
+    /*.testimonial-list .testimonial-text {*/
+        /*height: 260px;*/
+        /*margin-bottom: 20px;*/
+    /*}*/
+/*}*/
 
 @media all and (max-width: 400px) {
 
@@ -260,4 +481,65 @@
     #projekty .project_desc p {
         text-align: left;
     }
+
+    .testimonial-list .testimonial-text p {
+        font-size: 17px;
+        line-height: 20px;
+    }
+
+    #testimonials h2 {
+        font-size: 3em;
+    }
+
+    #blog .article{
+        width: 98%;
+        margin-left: 1%;
+        padding-bottom: 60px;
+    }
+
+    #cv #service .box {
+        width: 98%;
+    }
+
+    #cv #service .box .box2 {
+        width: 77%;
+    }
+
+    #cv #service .box .box2 p {
+        font-size: 16px;
+    }
+
+    #cv .skill .row {
+        padding: 34px 0px 30px 10px;
+    }
+
+    #cv .personal-info .relative, #cv #personal-info {
+        height: 380px;
+    }
+
+    /*#cv .personal-info ul.social li {*/
+        /*margin-left: 8%;*/
+    /*}*/
+
+    .timeline::before {
+        left: 95%;
+    }
+
+    .timeline li.left {
+        width: 95%;
+    }
+
+    #cv .cv-title {
+        font-size: 30px;
+    }
+
+    #cv #additional .box ul li {
+        font-size: 16px;;
+    }
+
+    #cv #additional .box ul li i {
+        font-size: 17px;
+    }
+
+
 }

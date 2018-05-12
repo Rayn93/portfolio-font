@@ -5,11 +5,17 @@
 @import url('transformico.css');
 @import url('nice-select.css');
 
-/*old color 00a651*/
+/*old color 0BC687*/
+/*new one #0BC687;*/
+
+
+.test-short{
+    display: none;
+}
 
 /*COMMON*/
 .active {
-    color: #00a651 !important;
+    color: #0BC687 !important;
 }
 
 .parallax {
@@ -25,22 +31,22 @@
 
 ::-moz-selection { /* Code for Firefox */
     color: #fff;
-    background: #00a651;
+    background: #0BC687;
 }
 
 ::selection {
     color: #fff;
-    background: #00a651;
+    background: #0BC687;
 }
 
 a.button,
 input.btn-primary {
     display: inline-block;
     background: none;
-    border: 2px solid #00A651;
+    border: 2px solid #0BC687;
     padding: 10px 15px;
     font-size: 1.5em;
-    color: #00A651;
+    color: #0BC687;
     font-weight: 600;
     margin-top: 30px;
     transition: 0.5s;
@@ -61,8 +67,8 @@ input.btn-primary:focus {
 
 a.button:hover,
 input.btn-primary:hover {
-    background: #00A651;
-    border: 2px solid #00A651;
+    background: #0BC687;
+    border: 2px solid #0BC687;
     color: #fff;
     text-decoration: none;
 }
@@ -78,7 +84,7 @@ input.btn-primary:hover {
     width: 100%;
     height: 100%;
     z-index: 1999;
-    background: #00A651;
+    background: #0BC687;
 }
 
 .nopadding{
@@ -135,7 +141,7 @@ header .burger {
 }
 
 header .burger:hover {
-    color: #00A651;
+    color: #0BC687;
 }
 
 header #header-top.sticky .burger {
@@ -161,7 +167,7 @@ header .traggle-menu {
 }
 
 header .traggle-menu .logo{
-    background: #00a651;
+    background: #0BC687;
     border-radius: 5px;
     width: 80%;
 }
@@ -212,7 +218,7 @@ header .traggle-menu nav ul li a i {
 }
 
 header .traggle-menu nav ul li.active a {
-    color: #fff;
+    color: #0BC687;
 }
 
 header .traggle-menu .close:hover {
@@ -249,7 +255,7 @@ header .icons-header ul li a {
 }
 
 header .icons-header ul li a:hover {
-    color: #00A651;
+    color: #0BC687;
 }
 
 header .icons-header ul li .user-avatar {
@@ -298,12 +304,12 @@ header #header-top .languages li a {
 
 header #header-top .social-media li a:hover,
 header #header-top .languages li a:hover {
-    color: #00A651;
+    color: #0BC687;
 }
 
 .static-top {
     height: 550px;
-    border-bottom: 30px solid #00A651;
+    border-bottom: 30px solid #0BC687;
 }
 
 .static-top img.img-background {
@@ -334,7 +340,7 @@ header #header-top .languages li a:hover {
 #search-modal .modal-content {
     color: #fff;
     background: url("../img/modal_bg.jpg") center no-repeat;
-    border: 4px solid #00A651;
+    border: 4px solid #0BC687;
     background-size: cover;
 }
 
@@ -369,7 +375,7 @@ header #header-top .languages li a:hover {
 }
 
 #login-modal .bad-credential {
-    color: #00A651;
+    color: #0BC687;
     font-size: 22px;
 }
 
@@ -429,11 +435,11 @@ header #header-top .languages li a:hover {
 }
 
 #home #imie a.button:hover {
-    border: 2px solid #00A651;
+    border: 2px solid #0BC687;
 }
 
 #home #imie h1 span {
-    color: #00a651;
+    color: #0BC687;
 }
 
 #home #imie h1 strong {
@@ -444,7 +450,7 @@ header #header-top .languages li a:hover {
 
 #kim {
     min-height: 600px;
-    border-top: 25px solid #00a651;
+    border-top: 25px solid #0BC687;
     position: relative;
     z-index: 3;
     background: #fff;
@@ -472,7 +478,7 @@ header #header-top .languages li a:hover {
 }
 
 #kim .omnie span {
-    color: #00a651;
+    color: #0BC687;
     font-weight: 900;
 }
 
@@ -483,7 +489,7 @@ header #header-top .languages li a:hover {
 }
 
 #kim .omnie p a {
-    color: #00a651;
+    color: #0BC687;
     font-weight: 900;
 
 }
@@ -534,7 +540,7 @@ header #header-top .languages li a:hover {
 
 #projekty h2 span, #wspolpraca h2 span {
     font-weight: 900;
-    color: #00a651;
+    color: #0BC687;
 }
 
 #projekty img {
@@ -547,7 +553,7 @@ header #header-top .languages li a:hover {
     font-size: 2.2em;
     font-weight: 900;
     text-align: center;
-    color: #00A651;
+    color: #0BC687;
 }
 
 #projekty .project_desc p {
@@ -562,7 +568,7 @@ header #header-top .languages li a:hover {
 
 #projekty .project_desc ul li {
     display: inline-block;
-    background: #00A651;
+    background: #0BC687;
     font-weight: 600;
     color: #fff;
     padding: 5px 15px;
@@ -571,18 +577,18 @@ header #header-top .languages li a:hover {
     margin-left: 3px;
 }
 
-#projekty .separator {
+.separator {
     margin: 30px auto;
     width: 80%;
     position: relative;
 }
 
-#projekty .separator .mask {
+.separator .mask {
     overflow: hidden;
     height: 20px;
 }
 
-#projekty .separator .mask:after {
+.separator .mask:after {
     content: '';
     display: block;
     margin: -25px auto 0;
@@ -645,7 +651,7 @@ header #header-top .languages li a:hover {
 }
 
 #testimonials h2 span{
-    color: #00A651;
+    color: #0BC687;
     font-weight: bold;
 }
 
@@ -697,12 +703,12 @@ header #header-top .languages li a:hover {
 
 .testimonial-list .testimonial-text p a,
 .testimonial-list .company a{
-    color: #00a651;
+    color: #0BC687;
 }
 
 .testimonial-list .testimonial-text p a:hover,
 .testimonial-list .company a:hover{
-    color: #1fbf6f;
+    color: #0BC687;
 }
 
 
@@ -739,7 +745,7 @@ header #header-top .languages li a:hover {
 
 .testimonial-list .nav-tabs li.active a,
 .testimonial-list .nav-tabs li.active a:focus {
-    background: #00a651;
+    background: #0BC687;
     border: 0;
 }
 
@@ -760,21 +766,13 @@ header #header-top .languages li a:hover {
 }
 
 #blog h2 span{
-    color: #00A651;
+    color: #0BC687;
     font-weight: bold;
 }
 
 #blog .article .parent{
     margin-top: -10px;
     height: 100px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-#blog .article .parent2{
-
-    height: 150px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -817,7 +815,7 @@ ul.pull-right {
 .pagination>.active>a,
 .pagination>.active>a:hover,
 .pagination>.active>a:focus {
-    background-color: #00a651;
+    background-color: #0BC687;
 }
 
 
@@ -863,7 +861,7 @@ ul.pull-right {
 
 #kontakt h2 {
     padding: 30px 0;
-    color: #00a651;
+    color: #0BC687;
     font-size: 4em;
     font-weight: 900;
 }
@@ -877,7 +875,7 @@ ul.pull-right {
 }
 
 #kontakt p span {
-    color: #00a651;
+    color: #0BC687;
     font-weight: 900;
 }
 
@@ -907,7 +905,7 @@ ul.pull-right {
 
 #kontakt form input:focus,
 #kontakt form textarea:focus {
-    border: 1px solid #00a651;
+    border: 1px solid #0BC687;
     -webkit-box-shadow: none;
     box-shadow: none;
 }
@@ -918,7 +916,7 @@ ul.pull-right {
 }
 
 footer {
-    background: #00a651;
+    background: #0BC687;
     height: 30px;
     line-height: 30px;
     font-size: 1.2em;
@@ -927,8 +925,8 @@ footer {
 }
 
 .feedback_good {
-    color: #00a651;
-    border: 1px solid #00a651;
+    color: #0BC687;
+    border: 1px solid #0BC687;
     font-size: 2em;
     margin: 20px 0;
 }
@@ -960,9 +958,9 @@ footer {
 }
 
 .dropdown .btn {
-    background: #00a651;
+    background: #0BC687;
     border-radius: 10px;
-    border: 1px solid #00a651;
+    border: 1px solid #0BC687;
     width: 100%;
     padding: 10px 15px;
     font-size: 22px;
@@ -971,14 +969,14 @@ footer {
 
 .open > .dropdown-toggle.btn-primary {
     color: #ffffff;
-    background: #008c46;
-    border: 1px solid #008c46;
+    background: #0BC687;
+    border: 1px solid #0BC687;
 }
 
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
     text-decoration: none;
     color: #ffffff;
-    background-color: #1fbf6f;
+    background-color: #0BC687;
 }
 
 .dropdown-menu > li > a {
@@ -1086,7 +1084,7 @@ footer {
     margin-left: 170px;
     padding: 5px 8px;
     color: #fff;
-    background: #00a651;
+    background: #0BC687;
     font-weight: bold;
     border-radius: 5px;
 }
@@ -1144,7 +1142,7 @@ footer {
 
 #staticPage article .panel-title a:hover,
 #staticPage article .panel-title a:focus{
-    color: #00a651;
+    color: #0BC687;
 }
 
 #staticPage article .panel-body{
@@ -1212,13 +1210,18 @@ footer {
 }
 
 #cv #personal-info{
-    padding-bottom: 90px;
+    margin-bottom: 90px;
+    height:488px;
 }
 
 #cv .personal-info {
     background: #fff;
-    width: 70%;
     box-shadow: 4px 4px 5px 0px rgb(49, 49, 49);
+}
+
+#cv .personal-info .relative{
+    position: relative;
+    height: 488px;
 }
 
 #cv .personal-info h2{
@@ -1252,6 +1255,7 @@ footer {
     font-size: 18px;
     margin-left: 15px;
     line-height: 30px;
+
 }
 
 #cv .personal-info ul.social{
@@ -1261,6 +1265,9 @@ footer {
     margin-top: 18px;
     margin-bottom: 0;
     text-align: left;
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
 }
 
 #cv .personal-info ul.social li{
@@ -1418,7 +1425,7 @@ footer {
     width: 80%;
     /*height: 150px;*/
     float: right;
-    padding: 20px;
+    padding: 20px 20px 50px 20px;
     text-align: left;
     box-shadow: 0px 10px 6px rgba(0, 0, 0, 0.10), 0px 1px 6px rgba(0, 0, 0, 0.20);
 }
@@ -1457,7 +1464,7 @@ footer {
 }
 
 
-.timeline-badge {
+#cv .timeline-badge {
     color: #0BC687;
     width: 24px;
     height: 24px;
@@ -1468,27 +1475,29 @@ footer {
     z-index: 100;
 }
 
-.left .timeline-badge {
+#cv .left .timeline-badge {
      right: -12px;
 }
 
-.right .timeline-badge {
+#cv .right .timeline-badge {
     left: -12px;
 }
 
-.university{
+#cv .university{
     font-size: 17px;
     color: #ccc;
     font-weight: bold;
 }
 
-.title{
+#cv .title{
     font-size: 25px;
     color: #555;
     font-weight: bold;
+    line-height: 30px;
+    margin-bottom: 20px;
 }
 
-.time{
+#cv .time{
     font-size: 13px;
     color: #fff;
     font-weight: bold;
@@ -1497,33 +1506,66 @@ footer {
     text-align: center;
     float: left;
     line-height: 26px;
+    position: absolute;
+    bottom: 10px;
+    margin-bottom: 0;
 }
 
-.cert{
+#cv .cert{
     position: absolute;
     right: 50px;
-    top: 10px;
+    bottom: 10px;
     border: 2px solid #0BC687;
-    padding: 3px 15px;
+    padding: 1px 15px;
     border-radius: 10px;
     color: #0BC687;
     font-weight: bold;
     transition: 0.5s;
 }
 
-.right .cert{
+#cv .right .cert{
     right: 95px;
 }
 
-.cert:hover,
-.cert:focus{
+#cv .cert:hover,
+#cv .cert:focus{
     background: #0BC687;
     color: #fff;
 }
 
 #cv #experience{
     position: relative;
-    padding-top: 50px;
+    padding-top: 100px;
+    margin-bottom: 100px;
+}
+
+#cv #experience .timeline:before {
+    top: 210px;
+}
+
+#cv #additional{
+    padding: 60px 0;
+}
+
+#cv #additional .box{
+    background: #fff;
+    padding: 15px 20px 40px 30px;
+    box-shadow: 5px 5px 10px 1px rgba(0,0,0,0.75);
+}
+
+#cv #additional .box ul {
+    text-align: left;
+}
+
+#cv #additional .box ul li{
+    font-size: 20px;
+    line-height: 40px;
+}
+
+#cv #additional .box ul li i{
+    color: #0BC687;
+    width: 40px;
+    font-size: 23px;
 }
 
 
